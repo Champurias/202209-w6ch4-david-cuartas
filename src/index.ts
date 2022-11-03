@@ -15,7 +15,7 @@ app.get("/kitty", (req, res) => {
 });
 
 app.use("/*", (req, res) => {
-  res.status(404).json({ message: "endpoint not found" });
+  res.status(200).json({ message: "endpoint not found" });
 });
 const server = app.listen(port, () => {
   console.log(`Server is listening on port http://localhost:${port}`);
