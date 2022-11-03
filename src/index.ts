@@ -19,5 +19,5 @@ const server = app.listen(port, () => {
   console.log(`Server is listening on port http://localhost:${port}`);
 });
 server.on("error", (error) => {
-  console.log(`there was an error starting the server ${error.message}`);
+  console.log(`there was an eerror starting the server ${error.message}`);
 });
