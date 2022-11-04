@@ -6,3 +6,4 @@ const things: Thing[] = [
   { id: 3, name: "javascript" },
   { id: 4, name: "git" },
 ];
+export default things;

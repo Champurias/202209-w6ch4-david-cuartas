@@ -4,13 +4,12 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 const port = process.env.PORT;
-let kittyName = "Rulo";
 
 const app = express();
 
 app.use(morgan("dev"));
 
-app.get("/kitty", (req, res) => {
+app.get("/thigs", (req, res) => {
   res.status(200).json({ kittyName });
 });
 
